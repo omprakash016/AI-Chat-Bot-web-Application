@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "genai": "^0.0.18",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.19.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10"
+  }
+}
