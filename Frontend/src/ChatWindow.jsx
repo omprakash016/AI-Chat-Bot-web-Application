@@ -23,7 +23,7 @@ function ChatWindow(){
         })
     };
     try{
-       const response= await fetch("http://localhost:8080/api/chat",option);
+       const response= await fetch("https://ai-chat-bot-web-application.onrender.com/api/chat",option);
        const res=await response.json();
        console.log(res);
        setReply(res.reply);

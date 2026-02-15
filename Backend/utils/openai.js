@@ -50,8 +50,8 @@ function extractText(response) {
 
 async function getOpenAIResponse(messages = []) {
   try {
-    console.log('🧠 ENTERED getOpenAIResponse()');
-    console.log('🔹 GEMINI_API_KEY present:', !!process.env.GEMINI_API_KEY);
+    console.log(' ENTERED getOpenAIResponse()');
+    console.log('GEMINI_API_KEY present:', !!process.env.GEMINI_API_KEY);
 
     const contents = messages.map(m => ({
       role: (m.role || 'user').toLowerCase() === 'user' ? 'user' : 'model',
